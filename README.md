@@ -40,9 +40,11 @@ const abdelrhman = {
 };
 ```
 
-I build full-stack products that are made to work in the real world: clean backend systems, scalable SaaS platforms, dashboards, internal tools, automation workflows, and business operations software.
+I build software for real problems — dashboards, backend systems, SaaS tools, automations, and internal platforms that help businesses run smoother.
 
-I care about writing software that is useful, maintainable, and actually solves problems — not just code that looks good in a demo.
+I like turning messy workflows into clean products people actually enjoy using.
+
+Still learning, still building, still trying to make every project better than the last.
 
 ---
 
