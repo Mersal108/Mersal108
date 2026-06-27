@@ -1,10 +1,14 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f172a,100:2563eb&section=header" />
+
 # Hey, I'm Abdelrhman Mersal 👋
 
 ### Founder of **CrewPilot** · CTO at **be Well** · Software Engineer at **Octo**
 
-I build full-stack products, backend systems, SaaS platforms, dashboards, internal tools, and business automation systems.
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Building+SaaS+Platforms+%26+Backend+Systems;Founder+of+CrewPilot;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
+
+<br />
 
 <img src="https://komarev.com/ghpvc/?username=Mersal108&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
 
@@ -17,26 +21,28 @@ I build full-stack products, backend systems, SaaS platforms, dashboards, intern
 ```ts
 const abdelrhman = {
   name: "Abdelrhman Mersal",
+  title: "Full-Stack Software Developer",
   roles: [
     "Founder of CrewPilot",
     "CTO at be Well",
-    "Software Engineer at Octo",
-    "Full-Stack Developer"
+    "Software Engineer at Octo"
   ],
+  building: "CrewPilot",
   focus: [
     "SaaS Platforms",
-    "Backend Architecture",
+    "Backend Systems",
     "Business Automation",
     "Dashboards",
-    "Workforce Systems",
-    "Internal Tools"
+    "Internal Tools",
+    "Workforce Systems"
   ],
-  currentlyBuilding: "CrewPilot",
-  goal: "Build software that solves real business problems."
+  mindset: "Build real products, solve real problems, keep systems clean.",
 };
 ```
 
-I care about building products that are useful, clean, scalable, and actually work in production.
+I build full-stack products that are made to work in the real world: clean backend systems, scalable SaaS platforms, dashboards, internal tools, automation workflows, and business operations software.
+
+I care about writing software that is useful, maintainable, and actually solves problems — not just code that looks good in a demo.
 
 ---
 
@@ -102,40 +108,6 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 
 ---
 
-## Featured Projects
-
-### CrewPilot
-
-A modular workforce and business operations platform built for companies that need employee management, attendance, scheduling, timesheets, approvals, reports, and vertical-specific workflows.
-
-**Focus:** SaaS architecture, role-based access, module gating, dashboards, business workflows, backend APIs, deployment.
-
----
-
-### Home Haven
-
-A real estate platform focused on property listings, dashboards, authentication, and management workflows.
-
-**Focus:** full-stack development, user flows, property management, dashboard UI, structured data.
-
----
-
-### Library Management System
-
-A TypeScript-based system for managing books, users, borrowing workflows, and admin operations.
-
-**Focus:** TypeScript, CRUD operations, clean logic, admin workflows, user management.
-
----
-
-### Klue
-
-A TypeScript project focused on clean frontend structure, scalable application design, and modern UI logic.
-
-**Focus:** frontend architecture, reusable components, TypeScript, structured project organization.
-
----
-
 ## GitHub Stats
 
 <div align="center">
@@ -157,23 +129,6 @@ A TypeScript project focused on clean frontend structure, scalable application d
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mersal108&theme=tokyo-night&hide_border=true" />
 
 </div>
-
----
-
-## Engineering Interests
-
-```py
-engineering_interests = [
-    "Backend architecture",
-    "SaaS platforms",
-    "Clean APIs",
-    "Role-based permissions",
-    "Business operations software",
-    "Automation",
-    "Internal tools",
-    "Scalable systems"
-]
-```
 
 ---
 
@@ -210,5 +165,7 @@ It should make work easier, faster, and less chaotic.
 <div align="center">
 
 ### Building software that helps businesses operate better, move faster, and scale with less chaos.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2563eb,100:0f172a&section=footer" />
 
 </div>
