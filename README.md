@@ -1,17 +1,15 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f172a,100:2563eb&section=header" />
 
 # Hey, I'm Abdelrhman Mersal 👋
 
-### Founder of **CrewPilot** · CTO at **be Well** · Software Engineer at **Octo**
+### Founder of **CrewPilot** · Founder of **be Well** · Software Engineer at **Octo**
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Building+SaaS+Platforms+%26+Backend+Systems;Founder+of+CrewPilot;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
 
 <br />
 
 <img src="https://komarev.com/ghpvc/?username=Mersal108&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
-
 </div>
 
 ---
@@ -24,7 +22,7 @@ const abdelrhman = {
   title: "Full-Stack Software Developer",
   roles: [
     "Founder of CrewPilot",
-    "CTO at be Well",
+    "Founder of be Well",
     "Software Engineer at Octo"
   ],
   building: "CrewPilot",
@@ -41,9 +39,7 @@ const abdelrhman = {
 ```
 
 I build software for real problems — dashboards, backend systems, SaaS tools, automations, and internal platforms that help businesses run smoother.
-
 I like turning messy workflows into clean products people actually enjoy using.
-
 Still learning, still building, still trying to make every project better than the last.
 
 ---
@@ -64,15 +60,12 @@ Still learning, still building, still trying to make every project better than t
 ## Current Work
 
 ### Founder — CrewPilot
-
 Building **CrewPilot**, a modular workforce and business operations platform for companies that need employee management, attendance, scheduling, timesheets, reports, approvals, and industry-specific workflows.
 
-### CTO — be Well
-
-Leading technical direction, product planning, system architecture, and engineering execution.
+### Founder — be Well
+Leading product direction, technical architecture, and execution.
 
 ### Software Engineer — Octo
-
 Working on production backend systems, APIs, Redis caching, permissions, integrations, internal tools, and business-critical features.
 
 ---
@@ -80,7 +73,6 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 ## Tech Stack
 
 ### Backend
-
 <p>
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-111827?style=for-the-badge&logo=django&logoColor=white" />
@@ -90,7 +82,6 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 </p>
 
 ### Frontend
-
 <p>
   <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -99,7 +90,6 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 </p>
 
 ### DevOps & Tools
-
 <p>
   <img src="https://img.shields.io/badge/AWS-111827?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=white" />
@@ -113,23 +103,16 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 ## GitHub Stats
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mersal108&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mersal108&layout=compact&theme=tokyonight&hide_border=true" />
-
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mersal108&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mersal108&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </div>
 
 <div align="center">
-
 <img src="https://streak-stats.demolab.com?user=Mersal108&theme=tokyonight&hide_border=true" />
-
 </div>
 
 <div align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mersal108&theme=tokyo-night&hide_border=true" />
-
 </div>
 
 ---
@@ -169,5 +152,4 @@ It should make work easier, faster, and less chaotic.
 ### Building software that helps businesses operate better, move faster, and scale with less chaos.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2563eb,100:0f172a&section=footer" />
-
 </div>
