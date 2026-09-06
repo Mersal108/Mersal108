@@ -101,12 +101,15 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mersal108&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mersal108&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mersal108&theme=tokyonight" alt="Profile summary" />
+
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mersal108&theme=tokyonight" alt="Top languages by repo" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mersal108&theme=tokyonight" alt="Top languages by commit" />
 
 <img src="https://streak-stats.demolab.com?user=Mersal108&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mersal108&theme=tokyo-night&hide_border=true" alt="Activity graph" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mersal108&theme=tokyonight" alt="GitHub stats" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mersal108&theme=tokyonight&utcOffset=3" alt="Productive time" />
 
 </div>
 
