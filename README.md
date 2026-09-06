@@ -1,15 +1,17 @@
 <div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f172a,100:2563eb&section=header" />
 
 # Hey, I'm Abdelrhman Mersal 👋
 
-### Founder of **CrewPilot** · Founder of **be Well** · Software Engineer at **Octo**
+### Full-Stack Software Developer · Software Engineer at **Octo**
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Building+SaaS+Platforms+%26+Backend+Systems;Founder+of+CrewPilot;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Building+SaaS+Platforms+%26+Backend+Systems;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
 
 <br />
 
 <img src="https://komarev.com/ghpvc/?username=Mersal108&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
+
 </div>
 
 ---
@@ -20,52 +22,44 @@
 const abdelrhman = {
   name: "Abdelrhman Mersal",
   title: "Full-Stack Software Developer",
-  roles: [
-    "Founder of CrewPilot",
-    "Founder of be Well",
-    "Software Engineer at Octo"
-  ],
-  building: "CrewPilot",
+  role: "Software Engineer at Octo",
   focus: [
     "SaaS Platforms",
     "Backend Systems",
     "Business Automation",
     "Dashboards",
     "Internal Tools",
-    "Workforce Systems"
+    "Workforce Systems",
   ],
   mindset: "Build real products, solve real problems, keep systems clean.",
 };
 ```
 
 I build software for real problems — dashboards, backend systems, SaaS tools, automations, and internal platforms that help businesses run smoother.
+
 I like turning messy workflows into clean products people actually enjoy using.
+
 Still learning, still building, still trying to make every project better than the last.
 
 ---
 
 ## What I Build
 
-* SaaS platforms
-* Workforce management systems
-* Dashboards and admin portals
-* Backend APIs and integrations
-* Role-based permission systems
-* Business automation tools
-* Internal company systems
-* Production-ready web applications
+- SaaS platforms
+- Workforce management systems
+- Dashboards and admin portals
+- Backend APIs and integrations
+- Role-based permission systems
+- Business automation tools
+- Internal company systems
+- Production-ready web applications
 
 ---
 
 ## Current Work
 
-### Founder — CrewPilot
-Building **CrewPilot**, a modular workforce and business operations platform for companies that need employee management, attendance, scheduling, timesheets, reports, approvals, and industry-specific workflows.
-
-### Founder — be Well
-Leading product direction, technical architecture, and execution.
-
 ### Software Engineer — Octo
+
 Working on production backend systems, APIs, Redis caching, permissions, integrations, internal tools, and business-critical features.
 
 ---
@@ -73,29 +67,32 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 ## Tech Stack
 
 ### Backend
+
 <p>
-  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-111827?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/DRF-111827?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-111827?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/DRF-111827?style=for-the-badge&logo=django&logoColor=white" alt="Django REST Framework" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
 </p>
 
 ### Frontend
+
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
 </p>
 
 ### DevOps & Tools
+
 <p>
-  <img src="https://img.shields.io/badge/AWS-111827?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-111827?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-111827?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Nginx-111827?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
 ---
@@ -103,16 +100,14 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 ## GitHub Stats
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mersal108&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mersal108&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
-</div>
 
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=Mersal108&theme=tokyonight&hide_border=true" />
-</div>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mersal108&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mersal108&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top languages" />
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mersal108&theme=tokyo-night&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=Mersal108&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mersal108&theme=tokyo-night&hide_border=true" alt="Activity graph" />
+
 </div>
 
 ---
@@ -121,27 +116,23 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 
 I like building software that is:
 
-* Simple enough to use
-* Strong enough to scale
-* Clean enough to maintain
-* Useful enough to matter
+- Simple enough to use
+- Strong enough to scale
+- Clean enough to maintain
+- Useful enough to matter
 
-Good software should not just look good.
-It should make work easier, faster, and less chaotic.
+Good software should not just look good. It should make work easier, faster, and less chaotic.
 
 ---
 
 ## Connect
 
 <p>
-  <a href="https://crew-pilot.com">
-    <img src="https://img.shields.io/badge/Website-CrewPilot-blue?style=for-the-badge" />
-  </a>
   <a href="https://www.linkedin.com/in/abdelrhman-mersal/">
-    <img src="https://img.shields.io/badge/LinkedIn-Abdelrhman%20Mersal-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Abdelrhman%20Mersal-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:abdelrhmanmersal108@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -152,4 +143,5 @@ It should make work easier, faster, and less chaotic.
 ### Building software that helps businesses operate better, move faster, and scale with less chaos.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2563eb,100:0f172a&section=footer" />
+
 </div>
