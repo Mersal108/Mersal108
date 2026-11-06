@@ -109,14 +109,6 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mersal108&theme=tokyonight" alt="GitHub stats" />
 <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mersal108&theme=tokyonight&utcOffset=3" alt="Productive time" />
 
-<br /><br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mersal108/Mersal108/output/pond-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mersal108/Mersal108/output/pond-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Mersal108/Mersal108/output/pond-snake.svg" alt="Snake eating my contribution graph" />
-</picture>
-
 </div>
 
 <img src="./assets/koi-divider.svg" width="100%" alt="" />
