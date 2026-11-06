@@ -169,12 +169,12 @@
       <use href="#pad" xlink:href="#pad" fill="#14532d" transform="translate(712 72) rotate(270) scale(0.5)"/>
       <!-- flowers -->
       <g transform="translate(64 38)">
-        <g fill="#f9a8d4">
+        <g fill="#f1f5f9">
           <ellipse rx="4" ry="9" transform="rotate(0)"/>
           <ellipse rx="4" ry="9" transform="rotate(60)"/>
           <ellipse rx="4" ry="9" transform="rotate(120)"/>
         </g>
-        <g fill="#fbcfe8">
+        <g fill="#cbd5e1">
           <ellipse rx="3" ry="6" transform="rotate(30)"/>
           <ellipse rx="3" ry="6" transform="rotate(90)"/>
           <ellipse rx="3" ry="6" transform="rotate(150)"/>
@@ -182,12 +182,12 @@
         <circle r="2.5" fill="#fde047"/>
       </g>
       <g transform="translate(562 176) scale(0.8)">
-        <g fill="#f9a8d4">
+        <g fill="#f1f5f9">
           <ellipse rx="4" ry="9" transform="rotate(20)"/>
           <ellipse rx="4" ry="9" transform="rotate(80)"/>
           <ellipse rx="4" ry="9" transform="rotate(140)"/>
         </g>
-        <g fill="#fbcfe8">
+        <g fill="#cbd5e1">
           <ellipse rx="3" ry="6" transform="rotate(50)"/>
           <ellipse rx="3" ry="6" transform="rotate(110)"/>
           <ellipse rx="3" ry="6" transform="rotate(170)"/>

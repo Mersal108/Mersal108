@@ -32,28 +32,6 @@
     <circle cx="640" cy="26" r="2"><animate attributeName="cy" values="26;8" dur="2.8s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2.8s" begin="-2s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- tiny blossoms floating on the line -->
-  <g transform="translate(300 20) scale(0.6)">
-    <g fill="#f9a8d4">
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(72)"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(144)"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(216)"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(288)"/>
-    </g>
-    <circle r="2.6" fill="#f472b6"/>
-  </g>
-  <g transform="translate(560 20) scale(0.5)">
-    <g fill="#f9a8d4">
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(72)"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(144)"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(216)"/>
-      <ellipse cx="0" cy="-6" rx="4.2" ry="6" transform="rotate(288)"/>
-    </g>
-    <circle r="2.6" fill="#f472b6"/>
-  </g>
-
   <use href="#koi" xlink:href="#koi" transform="scale(0.7)">
     <animateMotion dur="14s" repeatCount="indefinite" rotate="auto"><mpath href="#swim" xlink:href="#swim"/></animateMotion>
   </use>

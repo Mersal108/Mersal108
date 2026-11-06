@@ -1,5 +1,5 @@
 # Draws the "Contribution Pond" in README.md: a snake that eats the
-# contribution graph, in the pond colours. It writes the SVGs to the
+# contribution graph, in koi orange and pond blues. It writes the SVGs to the
 # `output` branch, which the README links to.
 name: Contribution pond
 
@@ -24,8 +24,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/pond-snake.svg?color_snake=#fb923c&color_dots=#e0f2fe,#fbcfe8,#f9a8d4,#f472b6,#db2777
-            dist/pond-snake-dark.svg?palette=github-dark&color_snake=#fb923c&color_dots=#172554,#831843,#be185d,#ec4899,#f9a8d4
+            dist/pond-snake.svg?color_snake=#fb923c&color_dots=#ebedf0,#bfdbfe,#60a5fa,#2563eb,#1e3a8a
+            dist/pond-snake-dark.svg?palette=github-dark&color_snake=#fb923c&color_dots=#161b22,#1e3a8a,#1d4ed8,#3b82f6,#93c5fd
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
