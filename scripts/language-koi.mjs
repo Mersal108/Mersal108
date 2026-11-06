@@ -46,12 +46,14 @@ function render(langs) {
   const max = top[0]?.size ?? 1;
 
   const defs = top.map((l, i) => {
-    const light = luminance(l.color) > 0.45;
+    // Very dark language colours would vanish into the water, so lift them.
+    const color = luminance(l.color) < 0.08 ? lighten(l.color, 0.35) : l.color;
+    const light = luminance(color) > 0.45;
     const patch = PATCHES[l.name] ?? (light ? "#f97316" : "#f8fafc");
     return koi(`koi${i}`, {
-      body: l.color,
-      fins: lighten(l.color, 0.45),
-      tail: lighten(l.color, 0.3),
+      body: color,
+      fins: lighten(color, 0.45),
+      tail: lighten(color, 0.3),
       eye: light ? "#0f172a" : "#f8fafc",
       patches: [
         { cx: 13, cy: -2, rx: 8, ry: 5, fill: patch },
