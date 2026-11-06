@@ -1,0 +1,51 @@
+# Draws the README's generated pictures and publishes them to the `output`
+# branch, which README.md links to. All of them are built in one run
+# because each publish replaces the whole branch.
+#   pond-header.svg        the header pond as it looks now in Cairo
+#   language-koi.svg       top languages of public repos, as koi
+#   contribution-pond.svg  the last year of contributions as lily pads
+name: Pond
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - .github/workflows/pond.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pond
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Draw the pictures
+        run: |
+          mkdir -p dist
+          node scripts/pond-header.mjs dist/pond-header.svg
+          node scripts/language-koi.mjs "${{ github.repository_owner }}" dist/language-koi.svg
+          node scripts/contribution-pond.mjs "${{ github.repository_owner }}" dist/contribution-pond.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

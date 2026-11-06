@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/pond-header.svg" width="100%" alt="A koi pond at night: a koi jumps, lily pads float under the moon" />
+<img src="https://raw.githubusercontent.com/Mersal108/Mersal108/output/pond-header.svg" width="100%" alt="A koi pond as it looks right now in Cairo" />
 
 # Hey, I'm Abdelrhman Mersal 👋
 
@@ -101,8 +101,7 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mersal108&theme=tokyonight" alt="Profile summary" />
 
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mersal108&theme=tokyonight" alt="Top languages by repo" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mersal108&theme=tokyonight" alt="Top languages by commit" />
+<img src="https://raw.githubusercontent.com/Mersal108/Mersal108/output/language-koi.svg" width="100%" alt="My top languages as koi, each sized by how much I use it" />
 
 <img src="https://streak-stats.demolab.com?user=Mersal108&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
