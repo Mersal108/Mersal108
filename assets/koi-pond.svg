@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 200" width="800" height="200" role="img" aria-labelledby="title">
+  <title id="title">Koi swimming in a pond</title>
+  <defs>
+    <radialGradient id="water" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pond"><rect width="800" height="200" rx="18"/></clipPath>
+
+    <!-- one koi, head pointing +x, centred on the origin -->
+    <path id="body" d="M26 0C25-6 14-8.5 2-8C-10-7.5-20-4-26 0C-20 4-10 7.5 2 8C14 8.5 25 6 26 0Z"/>
+    <clipPath id="bodyClip"><use href="#body" xlink:href="#body"/></clipPath>
+    <g id="tail">
+      <path d="M-23 0Q-33-2-43-11Q-38 0-43 11Q-33 2-23 0Z"/>
+      <animateTransform attributeName="transform" type="rotate" values="-14 -23 0;14 -23 0;-14 -23 0" dur="0.9s" repeatCount="indefinite"/>
+    </g>
+    <g id="fins">
+      <path d="M12-6Q4-17-3-15Q3-10 8-6Z">
+        <animateTransform attributeName="transform" type="rotate" values="0 10 -6;-18 10 -6;0 10 -6" dur="1.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M12 6Q4 17-3 15Q3 10 8 6Z">
+        <animateTransform attributeName="transform" type="rotate" values="0 10 6;18 10 6;0 10 6" dur="1.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-14 0Q-20-3-24 0Q-20 3-14 0Z"/>
+    </g>
+    <g id="eyes" fill="#0f172a">
+      <circle cx="20" cy="-3.6" r="1.3"/>
+      <circle cx="20" cy="3.6" r="1.3"/>
+    </g>
+    <g id="shadow" fill="#020617" opacity="0.35" transform="translate(3 6)">
+      <use href="#body" xlink:href="#body"/>
+      <use href="#tail" xlink:href="#tail"/>
+    </g>
+
+    <!-- white with red-orange patches -->
+    <g id="koi-kohaku">
+      <use href="#shadow" xlink:href="#shadow"/>
+      <use href="#tail" xlink:href="#tail" fill="#fde2d4" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#fef3ee" opacity="0.75"/>
+      <use href="#body" xlink:href="#body" fill="#f8fafc"/>
+      <g clip-path="url(#bodyClip)" fill="#ef4444">
+        <ellipse cx="15" cy="-1" rx="9" ry="6"/>
+        <ellipse cx="-6" cy="3" rx="9" ry="5"/>
+        <ellipse cx="-17" cy="-3" rx="5" ry="4"/>
+      </g>
+      <use href="#eyes" xlink:href="#eyes"/>
+    </g>
+
+    <!-- gold -->
+    <g id="koi-ogon">
+      <use href="#shadow" xlink:href="#shadow"/>
+      <use href="#tail" xlink:href="#tail" fill="#fdba74" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#fed7aa" opacity="0.75"/>
+      <use href="#body" xlink:href="#body" fill="#fb923c"/>
+      <g clip-path="url(#bodyClip)" fill="#fde68a" opacity="0.55">
+        <ellipse cx="4" cy="-4" rx="18" ry="3"/>
+      </g>
+      <use href="#eyes" xlink:href="#eyes"/>
+    </g>
+
+    <!-- black, red and white -->
+    <g id="koi-showa">
+      <use href="#shadow" xlink:href="#shadow"/>
+      <use href="#tail" xlink:href="#tail" fill="#e2e8f0" opacity="0.8"/>
+      <use href="#fins" xlink:href="#fins" fill="#1e293b" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#111827"/>
+      <g clip-path="url(#bodyClip)">
+        <ellipse cx="13" cy="2" rx="9" ry="6" fill="#dc2626"/>
+        <ellipse cx="-8" cy="-3" rx="8" ry="5" fill="#f8fafc"/>
+        <ellipse cx="-18" cy="3" rx="5" ry="4" fill="#dc2626"/>
+      </g>
+      <g fill="#f8fafc">
+        <circle cx="20" cy="-3.6" r="1.3"/>
+        <circle cx="20" cy="3.6" r="1.3"/>
+      </g>
+    </g>
+
+    <!-- pale blue with an orange belly -->
+    <g id="koi-asagi">
+      <use href="#shadow" xlink:href="#shadow"/>
+      <use href="#tail" xlink:href="#tail" fill="#bfdbfe" opacity="0.8"/>
+      <use href="#fins" xlink:href="#fins" fill="#fb923c" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#93c5fd"/>
+      <g clip-path="url(#bodyClip)">
+        <ellipse cx="2" cy="7" rx="22" ry="3.2" fill="#f97316"/>
+        <ellipse cx="2" cy="-7" rx="22" ry="3.2" fill="#f97316"/>
+      </g>
+      <use href="#eyes" xlink:href="#eyes"/>
+    </g>
+
+    <!-- lily pad with a notch -->
+    <path id="pad" d="M0 0L21.25 -5.69A22 22 0 1 0 21.25 5.69Z"/>
+
+    <!-- swim paths -->
+    <path id="swim1" d="M120 100C120 30 380 30 400 100C420 170 680 170 680 100C680 30 420 30 400 100C380 170 120 170 120 100Z"/>
+    <path id="swim2" d="M200 58C350 8 650 18 722 80C784 140 500 192 300 160C120 130 80 98 200 58Z"/>
+    <path id="swim3" d="M600 142C450 192 150 182 88 120C40 70 250 18 450 48C650 80 752 102 600 142Z"/>
+    <path id="swim4" d="M60 40C200 70 260 180 420 150C580 120 600 30 760 60C840 80 780 190 600 180C420 170 300 40 60 40Z"/>
+  </defs>
+
+  <g clip-path="url(#pond)">
+    <rect width="800" height="200" fill="url(#water)"/>
+
+    <!-- pebbles on the bottom -->
+    <g fill="#1e3a8a" opacity="0.5">
+      <ellipse cx="70" cy="170" rx="14" ry="7"/>
+      <ellipse cx="96" cy="182" rx="9" ry="5"/>
+      <ellipse cx="520" cy="24" rx="12" ry="6"/>
+      <ellipse cx="545" cy="14" rx="7" ry="4"/>
+      <ellipse cx="760" cy="150" rx="10" ry="6"/>
+      <ellipse cx="300" cy="190" rx="16" ry="6"/>
+    </g>
+
+    <!-- slow light on the water -->
+    <rect x="-200" y="-40" width="420" height="280" fill="url(#shine)" transform="rotate(18)">
+      <animate attributeName="x" values="-260;900;-260" dur="26s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- koi -->
+    <use href="#koi-kohaku" xlink:href="#koi-kohaku">
+      <animateMotion dur="22s" repeatCount="indefinite" rotate="auto"><mpath href="#swim1" xlink:href="#swim1"/></animateMotion>
+    </use>
+    <use href="#koi-ogon" xlink:href="#koi-ogon">
+      <animateMotion dur="28s" begin="-9s" repeatCount="indefinite" rotate="auto"><mpath href="#swim2" xlink:href="#swim2"/></animateMotion>
+    </use>
+    <use href="#koi-showa" xlink:href="#koi-showa">
+      <animateMotion dur="25s" begin="-4s" repeatCount="indefinite" rotate="auto"><mpath href="#swim3" xlink:href="#swim3"/></animateMotion>
+    </use>
+    <use href="#koi-asagi" xlink:href="#koi-asagi">
+      <animateMotion dur="32s" begin="-17s" repeatCount="indefinite" rotate="auto"><mpath href="#swim4" xlink:href="#swim4"/></animateMotion>
+    </use>
+    <use href="#koi-kohaku" xlink:href="#koi-kohaku" transform="scale(0.75)">
+      <animateMotion dur="22s" begin="-12s" repeatCount="indefinite" rotate="auto"><mpath href="#swim1" xlink:href="#swim1"/></animateMotion>
+    </use>
+
+    <!-- ripples -->
+    <g fill="none" stroke="#bfdbfe" stroke-width="1.2">
+      <circle cx="250" cy="70" r="0" opacity="0">
+        <animate attributeName="r" values="0;34" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="70" r="0" opacity="0">
+        <animate attributeName="r" values="0;34" dur="5s" begin="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;0" dur="5s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="610" cy="128" r="0" opacity="0">
+        <animate attributeName="r" values="0;28" dur="6s" begin="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0" dur="6s" begin="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="470" cy="40" r="0" opacity="0">
+        <animate attributeName="r" values="0;22" dur="7s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.45;0" dur="7s" begin="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- lily pads float above the koi -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;2 -1.5;0 0" dur="7s" repeatCount="indefinite"/>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(60 40) rotate(40)"/>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(98 66) rotate(200) scale(0.6)"/>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(745 44) rotate(150) scale(0.85)"/>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(560 178) rotate(-60) scale(0.9)"/>
+      <use href="#pad" xlink:href="#pad" fill="#14532d" transform="translate(712 72) rotate(270) scale(0.5)"/>
+      <!-- flowers -->
+      <g transform="translate(64 38)">
+        <g fill="#f9a8d4">
+          <ellipse rx="4" ry="9" transform="rotate(0)"/>
+          <ellipse rx="4" ry="9" transform="rotate(60)"/>
+          <ellipse rx="4" ry="9" transform="rotate(120)"/>
+        </g>
+        <g fill="#fbcfe8">
+          <ellipse rx="3" ry="6" transform="rotate(30)"/>
+          <ellipse rx="3" ry="6" transform="rotate(90)"/>
+          <ellipse rx="3" ry="6" transform="rotate(150)"/>
+        </g>
+        <circle r="2.5" fill="#fde047"/>
+      </g>
+      <g transform="translate(562 176) scale(0.8)">
+        <g fill="#f9a8d4">
+          <ellipse rx="4" ry="9" transform="rotate(20)"/>
+          <ellipse rx="4" ry="9" transform="rotate(80)"/>
+          <ellipse rx="4" ry="9" transform="rotate(140)"/>
+        </g>
+        <g fill="#fbcfe8">
+          <ellipse rx="3" ry="6" transform="rotate(50)"/>
+          <ellipse rx="3" ry="6" transform="rotate(110)"/>
+          <ellipse rx="3" ry="6" transform="rotate(170)"/>
+        </g>
+        <circle r="2.5" fill="#fde047"/>
+      </g>
+    </g>
+  </g>
+</svg>

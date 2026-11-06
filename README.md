@@ -143,6 +143,8 @@ Good software should not just look good. It should make work easier, faster, and
 
 <div align="center">
 
+<img src="./assets/koi-pond.svg" width="100%" alt="Koi swimming in a pond" />
+
 ### Building software that helps businesses operate better, move faster, and scale with less chaos.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2563eb,100:0f172a&section=footer" />
