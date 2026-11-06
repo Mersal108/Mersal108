@@ -67,7 +67,7 @@ function render({ total, days }) {
       ripples.push(`<circle cx="${r1(cx)}" cy="${r1(cy)}" r="1.3"/>`);
       return;
     }
-    const r = [0, 3.4, 4.4, 5.3, 6.2][d.level];
+    const r = [0, 4.4, 5.1, 5.7, 6.3][d.level];
     const fill = ["", "#166534", "#15803d", "#16a34a", "#22c55e"][d.level];
     const rot = Math.round(h * 360);
     pads.push(`<use href="#pad" xlink:href="#pad" fill="${fill}" transform="translate(${r1(cx)} ${r1(cy)}) rotate(${rot}) scale(${r1(r / 10)})"><title>${d.count} on ${d.date}</title></use>`);
@@ -152,7 +152,7 @@ function render({ total, days }) {
     </g>
     <g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">
       <text x="${r1(right - 88)}" y="31">Less</text>
-      ${[1, 2, 3, 4].map((l, k) => `<use href="#pad" xlink:href="#pad" fill="${["", "#166534", "#15803d", "#16a34a", "#22c55e"][l]}" transform="translate(${r1(right - 76 + k * 13)} 27) rotate(200) scale(${[0, 0.34, 0.44, 0.53, 0.62][l]})"/>`).join("")}
+      ${[1, 2, 3, 4].map((l, k) => `<use href="#pad" xlink:href="#pad" fill="${["", "#166534", "#15803d", "#16a34a", "#22c55e"][l]}" transform="translate(${r1(right - 76 + k * 13)} 27) rotate(200) scale(${[0, 0.44, 0.51, 0.57, 0.63][l]})"/>`).join("")}
       <text x="${r1(right)}" y="31">More</text>
     </g>
   </g>
