@@ -118,7 +118,7 @@
     </g>
 
     <!-- slow light on the water -->
-    <rect x="-200" y="-40" width="420" height="280" fill="url(#shine)" transform="rotate(18)">
+    <rect x="-200" y="-300" width="420" height="800" fill="url(#shine)" transform="rotate(18)">
       <animate attributeName="x" values="-260;900;-260" dur="26s" repeatCount="indefinite"/>
     </rect>
 
