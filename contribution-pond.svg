@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 186" width="800" height="186" role="img" aria-labelledby="title">
+  <title id="title">1559 contributions in the last year, drawn as lily pads on a koi pond</title>
+  <defs>
+    <radialGradient id="water" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.6" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="800" height="186" rx="18"/></clipPath>
+    <path id="pad" d="M0 0L9.66-2.59A10 10 0 1 0 9.66 2.59Z"/>
+    <g id="lotus">
+      <path d="M0 0C-1.6-2.4-1.6-5.6 0-8C1.6-5.6 1.6-2.4 0 0Z" fill="#f8fafc"/>
+      <path d="M0 0C-3.2-1.2-4.8-4-4.8-6.4C-2.4-5.2-0.8-3.2 0 0Z" fill="#e2e8f0"/>
+      <path d="M0 0C3.2-1.2 4.8-4 4.8-6.4C2.4-5.2 0.8-3.2 0 0Z" fill="#e2e8f0"/>
+      <circle cy="-2.4" r="1" fill="#fde047"/>
+    </g>
+    <path id="body" d="M26 0C25-6 14-8.5 2-8C-10-7.5-20-4-26 0C-20 4-10 7.5 2 8C14 8.5 25 6 26 0Z"/>
+    <clipPath id="bodyClip"><use href="#body" xlink:href="#body"/></clipPath>
+    <g id="tail"><path d="M-23 0Q-33-2-43-11Q-38 0-43 11Q-33 2-23 0Z">
+      <animateTransform attributeName="transform" type="rotate" values="-14 -23 0;14 -23 0;-14 -23 0" dur="0.9s" repeatCount="indefinite"/></path></g>
+    <g id="fins"><path d="M12-6Q4-17-3-15Q3-10 8-6Z"/><path d="M12 6Q4 17-3 15Q3 10 8 6Z"/></g>
+    <g id="kohaku">
+      <use href="#tail" xlink:href="#tail" fill="#fde2d4" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#fef3ee" opacity="0.75"/>
+      <use href="#body" xlink:href="#body" fill="#f8fafc"/>
+      <g clip-path="url(#bodyClip)" fill="#ef4444"><ellipse cx="15" cy="-1" rx="9" ry="6"/><ellipse cx="-6" cy="3" rx="9" ry="5"/></g>
+    </g>
+    <g id="ogon">
+      <use href="#tail" xlink:href="#tail" fill="#fdba74" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#fed7aa" opacity="0.75"/>
+      <use href="#body" xlink:href="#body" fill="#fb923c"/>
+    </g>
+    <g id="showa">
+      <use href="#tail" xlink:href="#tail" fill="#e2e8f0" opacity="0.8"/>
+      <use href="#fins" xlink:href="#fins" fill="#1e293b" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#111827"/>
+      <g clip-path="url(#bodyClip)"><ellipse cx="13" cy="2" rx="9" ry="6" fill="#dc2626"/><ellipse cx="-8" cy="-3" rx="8" ry="5" fill="#f8fafc"/></g>
+    </g>
+    <path id="swim1" d="M-60 80C150 40 300 130 450 90C600 50 700 120 860 90"/>
+    <path id="swim2" d="M860 130C650 170 520 70 380 110C240 150 120 80 -60 120"/>
+    <path id="swim3" d="M-60 150C120 120 260 60 420 70C580 80 680 160 860 60"/>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="800" height="186" fill="url(#water)"/>
+
+    <text x="40" y="32" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">1,559 contributions in the last year</text>
+
+    <!-- koi swim under the pads -->
+    <use href="#kohaku" xlink:href="#kohaku" opacity="0.9" transform="scale(0.42)">
+      <animateMotion dur="26s" repeatCount="indefinite" rotate="auto"><mpath href="#swim1" xlink:href="#swim1"/></animateMotion>
+    </use>
+    <use href="#ogon" xlink:href="#ogon" opacity="0.9" transform="scale(0.42)">
+      <animateMotion dur="31s" begin="-12s" repeatCount="indefinite" rotate="auto"><mpath href="#swim2" xlink:href="#swim2"/></animateMotion>
+    </use>
+    <use href="#showa" xlink:href="#showa" opacity="0.9" transform="scale(0.42)">
+      <animateMotion dur="36s" begin="-20s" repeatCount="indefinite" rotate="auto"><mpath href="#swim3" xlink:href="#swim3"/></animateMotion>
+    </use>
+
+    <g fill="#3b82f6" opacity="0.35">
+      <circle cx="46.8" cy="58.8" r="1.3"/><circle cx="46.8" cy="72.4" r="1.3"/><circle cx="46.8" cy="86" r="1.3"/><circle cx="46.8" cy="113.2" r="1.3"/><circle cx="46.8" cy="126.8" r="1.3"/><circle cx="46.8" cy="140.4" r="1.3"/><circle cx="60.4" cy="58.8" r="1.3"/><circle cx="60.4" cy="72.4" r="1.3"/><circle cx="60.4" cy="86" r="1.3"/><circle cx="60.4" cy="99.6" r="1.3"/><circle cx="60.4" cy="113.2" r="1.3"/><circle cx="60.4" cy="126.8" r="1.3"/><circle cx="60.4" cy="140.4" r="1.3"/><circle cx="74" cy="58.8" r="1.3"/><circle cx="74" cy="72.4" r="1.3"/><circle cx="74" cy="86" r="1.3"/><circle cx="74" cy="99.6" r="1.3"/><circle cx="74" cy="113.2" r="1.3"/><circle cx="74" cy="126.8" r="1.3"/><circle cx="74" cy="140.4" r="1.3"/><circle cx="87.6" cy="58.8" r="1.3"/><circle cx="87.6" cy="72.4" r="1.3"/><circle cx="87.6" cy="86" r="1.3"/><circle cx="87.6" cy="99.6" r="1.3"/><circle cx="87.6" cy="113.2" r="1.3"/><circle cx="87.6" cy="126.8" r="1.3"/><circle cx="87.6" cy="140.4" r="1.3"/><circle cx="101.2" cy="58.8" r="1.3"/><circle cx="101.2" cy="72.4" r="1.3"/><circle cx="101.2" cy="86" r="1.3"/><circle cx="101.2" cy="99.6" r="1.3"/><circle cx="101.2" cy="113.2" r="1.3"/><circle cx="101.2" cy="126.8" r="1.3"/><circle cx="101.2" cy="140.4" r="1.3"/><circle cx="114.8" cy="58.8" r="1.3"/><circle cx="114.8" cy="72.4" r="1.3"/><circle cx="114.8" cy="86" r="1.3"/><circle cx="114.8" cy="99.6" r="1.3"/><circle cx="114.8" cy="113.2" r="1.3"/><circle cx="114.8" cy="126.8" r="1.3"/><circle cx="114.8" cy="140.4" r="1.3"/><circle cx="128.4" cy="58.8" r="1.3"/><circle cx="128.4" cy="72.4" r="1.3"/><circle cx="128.4" cy="86" r="1.3"/><circle cx="128.4" cy="99.6" r="1.3"/><circle cx="128.4" cy="113.2" r="1.3"/><circle cx="128.4" cy="126.8" r="1.3"/><circle cx="128.4" cy="140.4" r="1.3"/><circle cx="142" cy="58.8" r="1.3"/><circle cx="142" cy="72.4" r="1.3"/><circle cx="142" cy="86" r="1.3"/><circle cx="142" cy="99.6" r="1.3"/><circle cx="142" cy="113.2" r="1.3"/><circle cx="142" cy="126.8" r="1.3"/><circle cx="142" cy="140.4" r="1.3"/><circle cx="155.6" cy="58.8" r="1.3"/><circle cx="155.6" cy="72.4" r="1.3"/><circle cx="155.6" cy="86" r="1.3"/><circle cx="155.6" cy="99.6" r="1.3"/><circle cx="155.6" cy="113.2" r="1.3"/><circle cx="155.6" cy="140.4" r="1.3"/><circle cx="169.2" cy="86" r="1.3"/><circle cx="169.2" cy="99.6" r="1.3"/><circle cx="169.2" cy="113.2" r="1.3"/><circle cx="169.2" cy="126.8" r="1.3"/><circle cx="169.2" cy="140.4" r="1.3"/><circle cx="182.8" cy="58.8" r="1.3"/><circle cx="182.8" cy="72.4" r="1.3"/><circle cx="182.8" cy="86" r="1.3"/><circle cx="182.8" cy="99.6" r="1.3"/><circle cx="182.8" cy="113.2" r="1.3"/><circle cx="182.8" cy="126.8" r="1.3"/><circle cx="182.8" cy="140.4" r="1.3"/><circle cx="196.4" cy="72.4" r="1.3"/><circle cx="196.4" cy="86" r="1.3"/><circle cx="196.4" cy="113.2" r="1.3"/><circle cx="196.4" cy="126.8" r="1.3"/><circle cx="196.4" cy="140.4" r="1.3"/><circle cx="210" cy="72.4" r="1.3"/><circle cx="210" cy="86" r="1.3"/><circle cx="210" cy="99.6" r="1.3"/><circle cx="210" cy="113.2" r="1.3"/><circle cx="210" cy="126.8" r="1.3"/><circle cx="210" cy="140.4" r="1.3"/><circle cx="223.6" cy="58.8" r="1.3"/><circle cx="223.6" cy="72.4" r="1.3"/><circle cx="223.6" cy="86" r="1.3"/><circle cx="223.6" cy="99.6" r="1.3"/><circle cx="223.6" cy="113.2" r="1.3"/><circle cx="223.6" cy="126.8" r="1.3"/><circle cx="223.6" cy="140.4" r="1.3"/><circle cx="237.2" cy="58.8" r="1.3"/><circle cx="237.2" cy="72.4" r="1.3"/><circle cx="237.2" cy="86" r="1.3"/><circle cx="237.2" cy="99.6" r="1.3"/><circle cx="237.2" cy="113.2" r="1.3"/><circle cx="237.2" cy="126.8" r="1.3"/><circle cx="237.2" cy="140.4" r="1.3"/><circle cx="250.8" cy="58.8" r="1.3"/><circle cx="250.8" cy="86" r="1.3"/><circle cx="250.8" cy="99.6" r="1.3"/><circle cx="250.8" cy="113.2" r="1.3"/><circle cx="250.8" cy="126.8" r="1.3"/><circle cx="250.8" cy="140.4" r="1.3"/><circle cx="264.4" cy="58.8" r="1.3"/><circle cx="264.4" cy="72.4" r="1.3"/><circle cx="264.4" cy="86" r="1.3"/><circle cx="264.4" cy="99.6" r="1.3"/><circle cx="264.4" cy="113.2" r="1.3"/><circle cx="264.4" cy="126.8" r="1.3"/><circle cx="264.4" cy="140.4" r="1.3"/><circle cx="278" cy="58.8" r="1.3"/><circle cx="278" cy="72.4" r="1.3"/><circle cx="278" cy="86" r="1.3"/><circle cx="278" cy="99.6" r="1.3"/><circle cx="278" cy="113.2" r="1.3"/><circle cx="278" cy="126.8" r="1.3"/><circle cx="278" cy="140.4" r="1.3"/><circle cx="291.6" cy="58.8" r="1.3"/><circle cx="291.6" cy="72.4" r="1.3"/><circle cx="291.6" cy="86" r="1.3"/><circle cx="291.6" cy="99.6" r="1.3"/><circle cx="291.6" cy="113.2" r="1.3"/><circle cx="291.6" cy="126.8" r="1.3"/><circle cx="291.6" cy="140.4" r="1.3"/><circle cx="305.2" cy="58.8" r="1.3"/><circle cx="305.2" cy="72.4" r="1.3"/><circle cx="305.2" cy="86" r="1.3"/><circle cx="305.2" cy="99.6" r="1.3"/><circle cx="305.2" cy="113.2" r="1.3"/><circle cx="305.2" cy="126.8" r="1.3"/><circle cx="305.2" cy="140.4" r="1.3"/><circle cx="318.8" cy="58.8" r="1.3"/><circle cx="318.8" cy="72.4" r="1.3"/><circle cx="318.8" cy="86" r="1.3"/><circle cx="318.8" cy="99.6" r="1.3"/><circle cx="318.8" cy="113.2" r="1.3"/><circle cx="318.8" cy="126.8" r="1.3"/><circle cx="318.8" cy="140.4" r="1.3"/><circle cx="332.4" cy="58.8" r="1.3"/><circle cx="332.4" cy="72.4" r="1.3"/><circle cx="332.4" cy="86" r="1.3"/><circle cx="332.4" cy="99.6" r="1.3"/><circle cx="332.4" cy="113.2" r="1.3"/><circle cx="332.4" cy="126.8" r="1.3"/><circle cx="332.4" cy="140.4" r="1.3"/><circle cx="346" cy="58.8" r="1.3"/><circle cx="346" cy="72.4" r="1.3"/><circle cx="346" cy="86" r="1.3"/><circle cx="346" cy="99.6" r="1.3"/><circle cx="346" cy="113.2" r="1.3"/><circle cx="346" cy="126.8" r="1.3"/><circle cx="346" cy="140.4" r="1.3"/><circle cx="359.6" cy="72.4" r="1.3"/><circle cx="359.6" cy="86" r="1.3"/><circle cx="359.6" cy="99.6" r="1.3"/><circle cx="359.6" cy="113.2" r="1.3"/><circle cx="359.6" cy="126.8" r="1.3"/><circle cx="359.6" cy="140.4" r="1.3"/><circle cx="373.2" cy="58.8" r="1.3"/><circle cx="373.2" cy="72.4" r="1.3"/><circle cx="373.2" cy="86" r="1.3"/><circle cx="373.2" cy="99.6" r="1.3"/><circle cx="373.2" cy="113.2" r="1.3"/><circle cx="373.2" cy="126.8" r="1.3"/><circle cx="373.2" cy="140.4" r="1.3"/><circle cx="386.8" cy="58.8" r="1.3"/><circle cx="386.8" cy="72.4" r="1.3"/><circle cx="386.8" cy="86" r="1.3"/><circle cx="386.8" cy="99.6" r="1.3"/><circle cx="386.8" cy="113.2" r="1.3"/><circle cx="386.8" cy="126.8" r="1.3"/><circle cx="386.8" cy="140.4" r="1.3"/><circle cx="400.4" cy="58.8" r="1.3"/><circle cx="400.4" cy="72.4" r="1.3"/><circle cx="400.4" cy="86" r="1.3"/><circle cx="400.4" cy="99.6" r="1.3"/><circle cx="400.4" cy="113.2" r="1.3"/><circle cx="400.4" cy="140.4" r="1.3"/><circle cx="414" cy="72.4" r="1.3"/><circle cx="414" cy="86" r="1.3"/><circle cx="414" cy="99.6" r="1.3"/><circle cx="414" cy="113.2" r="1.3"/><circle cx="414" cy="126.8" r="1.3"/><circle cx="414" cy="140.4" r="1.3"/><circle cx="427.6" cy="58.8" r="1.3"/><circle cx="427.6" cy="72.4" r="1.3"/><circle cx="427.6" cy="86" r="1.3"/><circle cx="427.6" cy="99.6" r="1.3"/><circle cx="427.6" cy="113.2" r="1.3"/><circle cx="427.6" cy="126.8" r="1.3"/><circle cx="427.6" cy="140.4" r="1.3"/><circle cx="441.2" cy="58.8" r="1.3"/><circle cx="441.2" cy="72.4" r="1.3"/><circle cx="441.2" cy="86" r="1.3"/><circle cx="441.2" cy="99.6" r="1.3"/><circle cx="441.2" cy="113.2" r="1.3"/><circle cx="441.2" cy="126.8" r="1.3"/><circle cx="454.8" cy="58.8" r="1.3"/><circle cx="454.8" cy="86" r="1.3"/><circle cx="454.8" cy="113.2" r="1.3"/><circle cx="482" cy="72.4" r="1.3"/><circle cx="482" cy="113.2" r="1.3"/><circle cx="482" cy="126.8" r="1.3"/><circle cx="495.6" cy="58.8" r="1.3"/><circle cx="495.6" cy="86" r="1.3"/><circle cx="495.6" cy="99.6" r="1.3"/><circle cx="495.6" cy="126.8" r="1.3"/><circle cx="495.6" cy="140.4" r="1.3"/><circle cx="509.2" cy="58.8" r="1.3"/><circle cx="509.2" cy="72.4" r="1.3"/><circle cx="509.2" cy="86" r="1.3"/><circle cx="509.2" cy="113.2" r="1.3"/><circle cx="509.2" cy="126.8" r="1.3"/><circle cx="522.8" cy="58.8" r="1.3"/><circle cx="522.8" cy="72.4" r="1.3"/><circle cx="522.8" cy="86" r="1.3"/><circle cx="522.8" cy="99.6" r="1.3"/><circle cx="522.8" cy="113.2" r="1.3"/><circle cx="536.4" cy="140.4" r="1.3"/><circle cx="550" cy="58.8" r="1.3"/><circle cx="550" cy="72.4" r="1.3"/><circle cx="550" cy="99.6" r="1.3"/><circle cx="577.2" cy="58.8" r="1.3"/><circle cx="577.2" cy="113.2" r="1.3"/><circle cx="577.2" cy="126.8" r="1.3"/><circle cx="604.4" cy="58.8" r="1.3"/><circle cx="618" cy="86" r="1.3"/><circle cx="631.6" cy="113.2" r="1.3"/><circle cx="631.6" cy="126.8" r="1.3"/><circle cx="631.6" cy="140.4" r="1.3"/><circle cx="645.2" cy="72.4" r="1.3"/><circle cx="645.2" cy="140.4" r="1.3"/><circle cx="658.8" cy="58.8" r="1.3"/><circle cx="658.8" cy="99.6" r="1.3"/><circle cx="672.4" cy="58.8" r="1.3"/><circle cx="672.4" cy="86" r="1.3"/><circle cx="713.2" cy="72.4" r="1.3"/><circle cx="726.8" cy="86" r="1.3"/><circle cx="726.8" cy="99.6" r="1.3"/><circle cx="754" cy="58.8" r="1.3"/><circle cx="754" cy="72.4" r="1.3"/><circle cx="754" cy="86" r="1.3"/><circle cx="754" cy="140.4" r="1.3"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0.6 -0.6;0 0" dur="6s" repeatCount="indefinite"/>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(46.8 99.6) rotate(328) scale(0.4)"><title>1 on 2025-11-12</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(155.6 126.8) rotate(183) scale(0.5)"><title>33 on 2026-01-09</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(169.2 58.8) rotate(177) scale(0.4)"><title>4 on 2026-01-11</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(169.2 72.4) rotate(176) scale(0.4)"><title>3 on 2026-01-12</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(196.4 58.8) rotate(183) scale(0.4)"><title>5 on 2026-01-25</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(196.4 99.6) rotate(199) scale(0.4)"><title>13 on 2026-01-28</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(210 58.8) rotate(245) scale(0.4)"><title>3 on 2026-02-01</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(250.8 72.4) rotate(91) scale(0.4)"><title>9 on 2026-02-23</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(359.6 58.8) rotate(343) scale(0.4)"><title>2 on 2026-04-19</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(400.4 126.8) rotate(135) scale(0.4)"><title>1 on 2026-05-15</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(414 58.8) rotate(132) scale(0.4)"><title>2 on 2026-05-17</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(441.2 140.4) rotate(264) scale(0.4)"><title>6 on 2026-06-06</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(454.8 72.4) rotate(256) scale(0.4)"><title>1 on 2026-06-08</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(454.8 99.6) rotate(259) scale(0.4)"><title>1 on 2026-06-10</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(454.8 126.8) rotate(256) scale(0.4)"><title>14 on 2026-06-12</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(454.8 140.4) rotate(257) scale(0.4)"><title>2 on 2026-06-13</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 58.8) rotate(264) scale(0.4)"><title>2 on 2026-06-14</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 72.4) rotate(266) scale(0.4)"><title>10 on 2026-06-15</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 86) rotate(261) scale(0.4)"><title>2 on 2026-06-16</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 99.6) rotate(263) scale(0.4)"><title>17 on 2026-06-17</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 113.2) rotate(247) scale(0.4)"><title>2 on 2026-06-18</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 126.8) rotate(249) scale(0.4)"><title>3 on 2026-06-19</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(468.4 140.4) rotate(250) scale(0.4)"><title>18 on 2026-06-20</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(482 58.8) rotate(249) scale(0.4)"><title>1 on 2026-06-21</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(482 86) rotate(246) scale(0.4)"><title>8 on 2026-06-23</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(482 99.6) rotate(244) scale(0.4)"><title>3 on 2026-06-24</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(482 140.4) rotate(240) scale(0.4)"><title>8 on 2026-06-27</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(495.6 72.4) rotate(260) scale(0.4)"><title>1 on 2026-06-29</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(495.6 113.2) rotate(281) scale(0.4)"><title>1 on 2026-07-02</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(509.2 99.6) rotate(295) scale(0.4)"><title>3 on 2026-07-08</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(509.2 140.4) rotate(291) scale(0.4)"><title>1 on 2026-07-11</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(522.8 126.8) rotate(299) scale(0.4)"><title>7 on 2026-07-17</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(522.8 140.4) rotate(281) scale(0.4)"><title>8 on 2026-07-18</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(536.4 58.8) rotate(279) scale(0.4)"><title>12 on 2026-07-19</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(536.4 72.4) rotate(87) scale(0.4)"><title>19 on 2026-07-20</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(536.4 86) rotate(88) scale(0.4)"><title>12 on 2026-07-21</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(536.4 99.6) rotate(89) scale(0.4)"><title>3 on 2026-07-22</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(536.4 113.2) rotate(91) scale(0.4)"><title>8 on 2026-07-23</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(536.4 126.8) rotate(92) scale(0.4)"><title>9 on 2026-07-24</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(550 86) rotate(98) scale(0.4)"><title>5 on 2026-07-28</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(550 113.2) rotate(95) scale(0.4)"><title>7 on 2026-07-30</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(550 126.8) rotate(94) scale(0.4)"><title>12 on 2026-07-31</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(550 140.4) rotate(96) scale(0.4)"><title>6 on 2026-08-01</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(563.6 58.8) rotate(94) scale(0.4)"><title>1 on 2026-08-02</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(563.6 72.4) rotate(93) scale(0.4)"><title>8 on 2026-08-03</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(563.6 86) rotate(91) scale(0.4)"><title>3 on 2026-08-04</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(563.6 99.6) rotate(90) scale(0.4)"><title>21 on 2026-08-05</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#16a34a" transform="translate(563.6 113.2) rotate(89) scale(0.6)"><title>66 on 2026-08-06</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(563.6 126.8) rotate(87) scale(0.4)"><title>11 on 2026-08-07</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(563.6 140.4) rotate(108) scale(0.4)"><title>6 on 2026-08-08</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(577.2 72.4) rotate(89) scale(0.4)"><title>2 on 2026-08-10</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(577.2 86) rotate(90) scale(0.5)"><title>36 on 2026-08-11</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(577.2 99.6) rotate(91) scale(0.4)"><title>21 on 2026-08-12</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(577.2 140.4) rotate(84) scale(0.4)"><title>6 on 2026-08-15</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#16a34a" transform="translate(590.8 58.8) rotate(86) scale(0.6)"><title>54 on 2026-08-16</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(590.8 72.4) rotate(87) scale(0.5)"><title>39 on 2026-08-17</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(590.8 86) rotate(100) scale(0.4)"><title>10 on 2026-08-18</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(590.8 99.6) rotate(101) scale(0.4)"><title>13 on 2026-08-19</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(590.8 113.2) rotate(294) scale(0.4)"><title>16 on 2026-08-20</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(590.8 126.8) rotate(293) scale(0.4)"><title>2 on 2026-08-21</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(590.8 140.4) rotate(297) scale(0.4)"><title>20 on 2026-08-22</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(604.4 72.4) rotate(288) scale(0.4)"><title>1 on 2026-08-24</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(604.4 86) rotate(287) scale(0.4)"><title>14 on 2026-08-25</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(604.4 99.6) rotate(291) scale(0.4)"><title>2 on 2026-08-26</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(604.4 113.2) rotate(290) scale(0.4)"><title>1 on 2026-08-27</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(604.4 126.8) rotate(283) scale(0.4)"><title>25 on 2026-08-28</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(604.4 140.4) rotate(281) scale(0.4)"><title>15 on 2026-08-29</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(618 58.8) rotate(105) scale(0.4)"><title>16 on 2026-08-30</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(618 72.4) rotate(107) scale(0.4)"><title>12 on 2026-08-31</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(618 99.6) rotate(12) scale(0.4)"><title>2 on 2026-09-02</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(618 113.2) rotate(14) scale(0.4)"><title>15 on 2026-09-03</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(618 126.8) rotate(15) scale(0.5)"><title>48 on 2026-09-04</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(618 140.4) rotate(17) scale(0.4)"><title>10 on 2026-09-05</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(631.6 58.8) rotate(18) scale(0.4)"><title>6 on 2026-09-06</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(631.6 72.4) rotate(19) scale(0.4)"><title>11 on 2026-09-07</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(631.6 86) rotate(358) scale(0.4)"><title>16 on 2026-09-08</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(631.6 99.6) rotate(360) scale(0.4)"><title>9 on 2026-09-09</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(645.2 58.8) rotate(194) scale(0.4)"><title>3 on 2026-09-13</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(645.2 86) rotate(202) scale(0.4)"><title>1 on 2026-09-15</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(645.2 99.6) rotate(201) scale(0.4)"><title>22 on 2026-09-16</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(645.2 113.2) rotate(199) scale(0.4)"><title>7 on 2026-09-17</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(645.2 126.8) rotate(187) scale(0.4)"><title>24 on 2026-09-18</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(658.8 72.4) rotate(208) scale(0.4)"><title>4 on 2026-09-21</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(658.8 86) rotate(204) scale(0.4)"><title>1 on 2026-09-22</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(658.8 113.2) rotate(201) scale(0.4)"><title>4 on 2026-09-24</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(658.8 126.8) rotate(202) scale(0.4)"><title>8 on 2026-09-25</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(658.8 140.4) rotate(198) scale(0.4)"><title>6 on 2026-09-26</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(672.4 72.4) rotate(195) scale(0.4)"><title>8 on 2026-09-28</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(672.4 99.6) rotate(170) scale(0.4)"><title>5 on 2026-09-30</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(672.4 113.2) rotate(143) scale(0.4)"><title>20 on 2026-10-01</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(672.4 126.8) rotate(139) scale(0.4)"><title>15 on 2026-10-02</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(672.4 140.4) rotate(140) scale(0.4)"><title>2 on 2026-10-03</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(686 58.8) rotate(136) scale(0.4)"><title>4 on 2026-10-04</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(686 72.4) rotate(137) scale(0.5)"><title>29 on 2026-10-05</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(686 86) rotate(133) scale(0.4)"><title>12 on 2026-10-06</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(686 99.6) rotate(134) scale(0.4)"><title>15 on 2026-10-07</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(686 113.2) rotate(130) scale(0.4)"><title>9 on 2026-10-08</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(686 126.8) rotate(131) scale(0.4)"><title>7 on 2026-10-09</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(686 140.4) rotate(105) scale(0.4)"><title>17 on 2026-10-10</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(699.6 58.8) rotate(103) scale(0.4)"><title>3 on 2026-10-11</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(699.6 72.4) rotate(108) scale(0.4)"><title>12 on 2026-10-12</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(699.6 86) rotate(106) scale(0.4)"><title>2 on 2026-10-13</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(699.6 99.6) rotate(110) scale(0.4)"><title>3 on 2026-10-14</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#22c55e" transform="translate(699.6 113.2) rotate(109) scale(0.6)"><title>94 on 2026-10-15</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#22c55e" transform="translate(699.6 126.8) rotate(113) scale(0.6)"><title>105 on 2026-10-16</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(699.6 140.4) rotate(112) scale(0.5)"><title>44 on 2026-10-17</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(713.2 58.8) rotate(116) scale(0.4)"><title>24 on 2026-10-18</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(713.2 86) rotate(304) scale(0.4)"><title>3 on 2026-10-20</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(713.2 99.6) rotate(306) scale(0.4)"><title>2 on 2026-10-21</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(713.2 113.2) rotate(307) scale(0.4)"><title>10 on 2026-10-22</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(713.2 126.8) rotate(309) scale(0.4)"><title>1 on 2026-10-23</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(713.2 140.4) rotate(310) scale(0.4)"><title>8 on 2026-10-24</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(726.8 58.8) rotate(311) scale(0.4)"><title>11 on 2026-10-25</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(726.8 72.4) rotate(313) scale(0.4)"><title>6 on 2026-10-26</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(726.8 113.2) rotate(295) scale(0.4)"><title>4 on 2026-10-29</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(726.8 126.8) rotate(133) scale(0.4)"><title>25 on 2026-10-30</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(726.8 140.4) rotate(131) scale(0.4)"><title>10 on 2026-10-31</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#16a34a" transform="translate(740.4 58.8) rotate(159) scale(0.6)"><title>63 on 2026-11-01</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(740.4 72.4) rotate(163) scale(0.5)"><title>29 on 2026-11-02</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(740.4 86) rotate(162) scale(0.4)"><title>9 on 2026-11-03</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(740.4 99.6) rotate(155) scale(0.4)"><title>1 on 2026-11-04</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(740.4 113.2) rotate(153) scale(0.4)"><title>22 on 2026-11-05</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(740.4 126.8) rotate(158) scale(0.4)"><title>6 on 2026-11-06</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(740.4 140.4) rotate(156) scale(0.4)"><title>2 on 2026-11-07</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(754 99.6) rotate(153) scale(0.4)"><title>2 on 2026-11-11</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(754 113.2) rotate(149) scale(0.4)"><title>7 on 2026-11-12</title></use>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(754 126.8) rotate(151) scale(0.4)"><title>2 on 2026-11-13</title></use>
+      <use href="#lotus" xlink:href="#lotus" transform="translate(563.6 112.2)"/>
+      <use href="#lotus" xlink:href="#lotus" transform="translate(590.8 57.8)"/>
+      <use href="#lotus" xlink:href="#lotus" transform="translate(699.6 112.2)"/>
+      <use href="#lotus" xlink:href="#lotus" transform="translate(699.6 125.8)"/>
+      <use href="#lotus" xlink:href="#lotus" transform="translate(740.4 57.8)"/>
+    </g>
+
+    <g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8">
+      <text x="94.4" y="163.2">Dec</text><text x="148.8" y="163.2">Jan</text><text x="203.2" y="163.2">Feb</text><text x="257.6" y="163.2">Mar</text><text x="325.6" y="163.2">Apr</text><text x="380" y="163.2">May</text><text x="448" y="163.2">Jun</text><text x="502.4" y="163.2">Jul</text><text x="556.8" y="163.2">Aug</text><text x="624.8" y="163.2">Sep</text><text x="679.2" y="163.2">Oct</text><text x="733.6" y="163.2">Nov</text>
+    </g>
+    <g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">
+      <text x="672.8" y="31">Less</text>
+      <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(684.8 27) rotate(200) scale(0.44)"/><use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(697.8 27) rotate(200) scale(0.51)"/><use href="#pad" xlink:href="#pad" fill="#16a34a" transform="translate(710.8 27) rotate(200) scale(0.57)"/><use href="#pad" xlink:href="#pad" fill="#22c55e" transform="translate(723.8 27) rotate(200) scale(0.63)"/>
+      <text x="760.8" y="31">More</text>
+    </g>
+  </g>
+</svg>

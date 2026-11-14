@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 210" width="800" height="210" role="img" aria-labelledby="title">
+  <title id="title">My top languages as koi: Python 77.1%, TypeScript 12.4%, JavaScript 9.2%, PLpgSQL 0.6%, PowerShell 0.6%</title>
+  <defs>
+    <radialGradient id="water" cx="38%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.6" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="800" height="210" rx="18"/></clipPath>
+    <clipPath id="pondArea"><rect width="570" height="210"/></clipPath>
+    <path id="pad" d="M0 0L21.25 -5.69A22 22 0 1 0 21.25 5.69Z"/>
+    
+    <path id="body" d="M26 0C25-6 14-8.5 2-8C-10-7.5-20-4-26 0C-20 4-10 7.5 2 8C14 8.5 25 6 26 0Z"/>
+    <clipPath id="bodyClip"><use href="#body" xlink:href="#body"/></clipPath>
+    <g id="tail"><path d="M-23 0Q-33-2-43-11Q-38 0-43 11Q-33 2-23 0Z">
+      <animateTransform attributeName="transform" type="rotate" values="-14 -23 0;14 -23 0;-14 -23 0" dur="0.9s" repeatCount="indefinite"/></path></g>
+    <g id="fins"><path d="M12-6Q4-17-3-15Q3-10 8-6Z"/><path d="M12 6Q4 17-3 15Q3 10 8 6Z"/></g>
+    
+    <g id="koi0">
+      <g fill="#020617" opacity="0.3" transform="translate(3 5)"><use href="#body" xlink:href="#body"/><use href="#tail" xlink:href="#tail"/></g>
+      <use href="#tail" xlink:href="#tail" fill="#729cc0" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#90b1ce" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#3572A5"/>
+      <g clip-path="url(#bodyClip)"><ellipse cx="13" cy="-2" rx="8" ry="5" fill="#ffd43b"/><ellipse cx="-9" cy="3" rx="7" ry="4" fill="#ffd43b"/></g>
+      <circle cx="20" cy="-3.6" r="1.3" fill="#f8fafc"/><circle cx="20" cy="3.6" r="1.3" fill="#f8fafc"/>
+    </g>
+    <g id="koi1">
+      <g fill="#020617" opacity="0.3" transform="translate(3 5)"><use href="#body" xlink:href="#body"/><use href="#tail" xlink:href="#tail"/></g>
+      <use href="#tail" xlink:href="#tail" fill="#6fa1d7" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#8eb5e0" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#3178c6"/>
+      <g clip-path="url(#bodyClip)"><ellipse cx="13" cy="-2" rx="8" ry="5" fill="#f8fafc"/><ellipse cx="-9" cy="3" rx="7" ry="4" fill="#f8fafc"/></g>
+      <circle cx="20" cy="-3.6" r="1.3" fill="#f8fafc"/><circle cx="20" cy="3.6" r="1.3" fill="#f8fafc"/>
+    </g>
+    <g id="koi2">
+      <g fill="#020617" opacity="0.3" transform="translate(3 5)"><use href="#body" xlink:href="#body"/><use href="#tail" xlink:href="#tail"/></g>
+      <use href="#tail" xlink:href="#tail" fill="#f5e98c" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#f7eea4" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#f1e05a"/>
+      <g clip-path="url(#bodyClip)"><ellipse cx="13" cy="-2" rx="8" ry="5" fill="#1e293b"/><ellipse cx="-9" cy="3" rx="7" ry="4" fill="#1e293b"/></g>
+      <circle cx="20" cy="-3.6" r="1.3" fill="#0f172a"/><circle cx="20" cy="3.6" r="1.3" fill="#0f172a"/>
+    </g>
+    <g id="koi3">
+      <g fill="#020617" opacity="0.3" transform="translate(3 5)"><use href="#body" xlink:href="#body"/><use href="#tail" xlink:href="#tail"/></g>
+      <use href="#tail" xlink:href="#tail" fill="#7095b1" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#8fabc2" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#336790"/>
+      <g clip-path="url(#bodyClip)"><ellipse cx="13" cy="-2" rx="8" ry="5" fill="#f8fafc"/><ellipse cx="-9" cy="3" rx="7" ry="4" fill="#f8fafc"/></g>
+      <circle cx="20" cy="-3.6" r="1.3" fill="#f8fafc"/><circle cx="20" cy="3.6" r="1.3" fill="#f8fafc"/>
+    </g>
+    <g id="koi4">
+      <g fill="#020617" opacity="0.3" transform="translate(3 5)"><use href="#body" xlink:href="#body"/><use href="#tail" xlink:href="#tail"/></g>
+      <use href="#tail" xlink:href="#tail" fill="#8c9cb2" opacity="0.85"/>
+      <use href="#fins" xlink:href="#fins" fill="#a4b1c3" opacity="0.8"/>
+      <use href="#body" xlink:href="#body" fill="#5a7191"/>
+      <g clip-path="url(#bodyClip)"><ellipse cx="13" cy="-2" rx="8" ry="5" fill="#f8fafc"/><ellipse cx="-9" cy="3" rx="7" ry="4" fill="#f8fafc"/></g>
+      <circle cx="20" cy="-3.6" r="1.3" fill="#f8fafc"/><circle cx="20" cy="3.6" r="1.3" fill="#f8fafc"/>
+    </g>
+    <path id="swim0" d="M60 100C60 40 240 30 300 100C360 170 540 160 540 100C540 40 360 30 300 100C240 170 60 160 60 100Z"/>
+    <path id="swim1" d="M120 50C260 10 470 30 520 80C570 140 380 185 240 160C110 140 40 80 120 50Z"/>
+    <path id="swim2" d="M480 150C360 190 120 180 70 130C30 85 200 30 340 50C480 70 560 110 480 150Z"/>
+    <path id="swim3" d="M40 40C150 60 200 170 320 145C440 120 450 40 540 60C600 75 560 180 430 175C300 170 220 40 40 40Z"/>
+    <path id="swim4" d="M300 30C450 30 560 90 500 140C440 185 160 190 90 140C30 95 150 30 300 30Z"/>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="800" height="210" fill="url(#water)"/>
+    <g clip-path="url(#pondArea)">
+    <use href="#koi0" xlink:href="#koi0" transform="scale(1.30)">
+      <animateMotion dur="20s" begin="-0s" repeatCount="indefinite" rotate="auto"><mpath href="#swim0" xlink:href="#swim0"/></animateMotion>
+    </use>
+    <use href="#koi1" xlink:href="#koi1" transform="scale(0.71)">
+      <animateMotion dur="24s" begin="-5s" repeatCount="indefinite" rotate="auto"><mpath href="#swim1" xlink:href="#swim1"/></animateMotion>
+    </use>
+    <use href="#koi2" xlink:href="#koi2" transform="scale(0.68)">
+      <animateMotion dur="28s" begin="-10s" repeatCount="indefinite" rotate="auto"><mpath href="#swim2" xlink:href="#swim2"/></animateMotion>
+    </use>
+    <use href="#koi3" xlink:href="#koi3" transform="scale(0.61)">
+      <animateMotion dur="32s" begin="-15s" repeatCount="indefinite" rotate="auto"><mpath href="#swim3" xlink:href="#swim3"/></animateMotion>
+    </use>
+    <use href="#koi4" xlink:href="#koi4" transform="scale(0.61)">
+      <animateMotion dur="36s" begin="-20s" repeatCount="indefinite" rotate="auto"><mpath href="#swim4" xlink:href="#swim4"/></animateMotion>
+    </use>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;1.5 -1;0 0" dur="7s" repeatCount="indefinite"/>
+        <use href="#pad" xlink:href="#pad" fill="#15803d" transform="translate(46 34) rotate(40) scale(0.9)"/>
+        <use href="#pad" xlink:href="#pad" fill="#166534" transform="translate(500 178) rotate(-60) scale(0.8)"/>
+        <use href="#pad" xlink:href="#pad" fill="#14532d" transform="translate(530 150) rotate(270) scale(0.45)"/>
+      </g>
+    </g>
+    <rect x="570" width="230" height="210" fill="#0f172a" opacity="0.55"/>
+    <line x1="570" y1="0" x2="570" y2="210" stroke="#1e3a8a" stroke-width="1"/>
+    <text x="594" y="28" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#64748b">TOP LANGUAGES</text>
+    <use href="#koi0" xlink:href="#koi0" transform="translate(604 52) scale(0.42)"/>
+      <text x="632" y="56.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Python</text>
+      <text x="776" y="56.5" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">77.1%</text>
+    <use href="#koi1" xlink:href="#koi1" transform="translate(604 82) scale(0.42)"/>
+      <text x="632" y="86.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">TypeScript</text>
+      <text x="776" y="86.5" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">12.4%</text>
+    <use href="#koi2" xlink:href="#koi2" transform="translate(604 112) scale(0.42)"/>
+      <text x="632" y="116.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">JavaScript</text>
+      <text x="776" y="116.5" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">9.2%</text>
+    <use href="#koi3" xlink:href="#koi3" transform="translate(604 142) scale(0.42)"/>
+      <text x="632" y="146.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">PLpgSQL</text>
+      <text x="776" y="146.5" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">0.6%</text>
+    <use href="#koi4" xlink:href="#koi4" transform="translate(604 172) scale(0.42)"/>
+      <text x="632" y="176.5" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">PowerShell</text>
+      <text x="776" y="176.5" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">0.6%</text>
+  </g>
+</svg>
