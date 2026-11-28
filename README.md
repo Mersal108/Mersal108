@@ -4,9 +4,9 @@
 
 # Hey, I'm Abdelrhman Mersal 👋
 
-### Full-Stack Software Developer · Software Engineer at **Octo**
+### Full-Stack Software Developer · Founder of **CrewPilot** · Co-founder of **FitLek** · Software Engineer at **Octo**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Building+SaaS+Platforms+%26+Backend+Systems;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Founder+of+CrewPilot+%C2%B7+Co-founder+of+FitLek;Building+SaaS+Platforms+%26+Backend+Systems;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
 
 <br />
 
@@ -23,6 +23,8 @@ const abdelrhman = {
   name: "Abdelrhman Mersal",
   title: "Full-Stack Software Developer",
   role: "Software Engineer at Octo",
+  building: ["CrewPilot", "FitLek"],
+  previously: ["Co-Founder & CTO at Be Well", "Sylndr"],
   focus: [
     "SaaS Platforms",
     "Backend Systems",
@@ -60,6 +62,23 @@ Still learning, still building, still trying to make every project better than t
 
 Working on production backend systems, APIs, Redis caching, permissions, integrations, internal tools, and business-critical features.
 
+## What I'm Building
+
+### FitLek — Co-founder & Tech Lead
+
+An Egyptian fashion marketplace: many local brands, one cart, one delivery, a personal feed, and try-on. Arabic and English from day one. I lead the tech — the shopper app (React Native / Expo), the brand and operations apps, the Supabase backend, and the website.
+
+[fitlek.vercel.app](https://fitlek.vercel.app)
+
+### CrewPilot — Founder & Lead Software Engineer
+
+A modular workforce and business operations SaaS platform: the tools a company needs to run its people and day-to-day work, in one place.
+
+## Previously
+
+- **Be Well** — Co-Founder & CTO (until November 2026). Built the digital health and wellness platform's backend, mobile app, dashboard, and infrastructure.
+- **Sylndr** — Software Engineer (2025).
+
 <img src="./assets/koi-divider.svg" width="100%" alt="" />
 
 ## Tech Stack
@@ -72,6 +91,7 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
   <img src="https://img.shields.io/badge/DRF-111827?style=for-the-badge&logo=django&logoColor=white" alt="Django REST Framework" />
   <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Supabase-111827?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
 </p>
 
 ### Frontend
@@ -81,6 +101,9 @@ Working on production backend systems, APIs, Redis caching, permissions, integra
   <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React%20Native-111827?style=for-the-badge&logo=react&logoColor=white" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-111827?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/Astro-111827?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
 </p>
 
 ### DevOps & Tools
