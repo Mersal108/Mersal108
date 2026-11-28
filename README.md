@@ -6,6 +6,8 @@
 
 ### Full-Stack Software Developer · Founder of **CrewPilot** · Co-founder of **FitLek** · Software Engineer at **Octo**
 
+**[🌐 My CV & portfolio — mersal-cv.crew-pilot.com](https://mersal-cv.crew-pilot.com)**
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=800&lines=Full-Stack+Software+Developer;Founder+of+CrewPilot+%C2%B7+Co-founder+of+FitLek;Building+SaaS+Platforms+%26+Backend+Systems;Clean+Architecture+%7C+Automation+%7C+Business+Tools" alt="Typing SVG" />
 
 <br />
